@@ -2,15 +2,16 @@
 
 ## Project Description
 
-My personal responsive portfolio website built with JavaScript. 
+My personal responsive portfolio website built with JavaScript and jQuery. 
 
 ## Project objective
 
-To show off all the skills I've learned in the bootcamp, especially HTML, CSS, and modern web standards. The point of this portfolio project is to showcase my development skills.
+To show off all the skills I'd learned in Juno's bootcamp, especially HTML, CSS, and modern web standards and best practices. The point of this portfolio project is to showcase my development skills.
+
+It is required that I code an existing portfolio site design from Themeforest which can be purchased only in PSD. It must not have any HTML or CSS with it. I purchased the: [Hardy - Personal Portfolio PSD Template](https://themeforest.net/item/hardy-personal-portfolio-psd-template/25731500) theme.
 
 ## Project Requirements
 
-- It is required that I code an existing portfolio site design from Themeforest which can be purchased only in PSD. It must not have any HTML or CSS with it. I purchased the: [Hardy - Personal Portfolio PSD Template](https://themeforest.net/item/hardy-personal-portfolio-psd-template/25731500) theme.
 -   The portfolio itself must be coded in plain HTML and CSS with jQuery or vanilla JavaScript for effects.
 -   All images considered content have descriptive alt text.
 -   Extraneous code is removed (including console.log).
@@ -24,7 +25,7 @@ To show off all the skills I've learned in the bootcamp, especially HTML, CSS, a
 [jQuery] - JavaScript Library used.
 
 
-#### [View app here]().  
+#### [View  here]().  
 
 
 ## Author
