@@ -11,7 +11,7 @@ To show off all the skills I've learned in the bootcamp, especially HTML, CSS, a
 ## Project Requirements
 
 - It is required that I code an existing portfolio site design from Themeforest which can be purchased only in PSD. It must not have any HTML or CSS with it. I purchased the: [Hardy - Personal Portfolio PSD Template](https://themeforest.net/item/hardy-personal-portfolio-psd-template/25731500) theme.
--   The portfolio itself must be coded in plain HTML and CSS with jQuery or vanilla JavaScript for effects (i.e. my portfolio site CANNOT be React).
+-   The portfolio itself must be coded in plain HTML and CSS with jQuery or vanilla JavaScript for effects.
 -   All images considered content have descriptive alt text.
 -   Extraneous code is removed (including console.log).
 -   Semantic HTML elements are used properly.
