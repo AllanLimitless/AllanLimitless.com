@@ -19,7 +19,17 @@ To show off all the skills I've learned in the bootcamp, especially HTML, CSS, a
 -   Wrapper used to constrain content on large displays.
 -   Site is responsive and uses media queries.
 
+## Built With
 
+[jQuery] - JavaScript Library used.
+
+
+#### [View app here]().  
+
+
+## Author
+
+[**Allan Limitless**](https://github.com/AllanLimitless).
 
 
 
