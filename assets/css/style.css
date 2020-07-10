@@ -41,8 +41,8 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	background-color: #ffffff;
-	color: #444444;
+	background-color: #1a1a1a;
+	color: #fff;
 	line-height: 1.6;
 	font-family: 'Poppins', Helvetica, arial, sans-serif;
 	font-smooth: always;
@@ -80,7 +80,7 @@ a:focus, a:visited,a:active{outline: 0; text-decoration: none;}
 p{
 	font-size: 16px;
 	font-weight: 300;
-	color: #777777;
+	color: #d3d3d3;
 }
 
 img {
@@ -95,8 +95,8 @@ img {
 section, footer{
 	padding: 70px 0px;
 	position: relative;
-	background-color: #ffffff;
-	border-bottom: 1px solid #fafafa;
+	border-bottom: 1px solid #252525;
+	background-color: #1a1a1a;
 }
 
 
@@ -225,7 +225,7 @@ section, footer{
 --------------------------------------------------------------*/
 .link{
 	display: inline-block;
-	color: #BF360C;
+	color: #f14410;
 }
 .link:hover{color: #c62d32;}
 
@@ -290,6 +290,7 @@ section, footer{
 }
 
 .brand_title {
+	font-family: 'Tomorrow', sans-serif;
 	font-size: 2em;
 	color: #fff;
 }
@@ -342,6 +343,7 @@ section, footer{
 }
 
 #text {
+	font-family: 'Tomorrow', sans-serif;
 	font-size: 5em;
 	color: #ffffff;
 	text-shadow: 0px 3px 6px #af2424;
@@ -401,7 +403,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 --------------------------------------------------------------*/
 .profile{
 	margin-bottom: 50px;
-	text-align: center;
+	text-align: center;	
 }
 
 .profile p{
@@ -423,7 +425,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	overflow-y: hidden;
 	margin: 10px 0px;
 	padding-top: 25px;
-	border-top: 1px solid #fafafa;
+	border-top: 1px solid #252525;
 }
 
 .social_ico li{
@@ -498,21 +500,24 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	margin-bottom: 30px;
 	padding: 20px;
 	background-color: #ffffff;
-	border-radius: 	3px;
-	border: 1px solid #eeeeee;
-	box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+	border-radius: 3px;
+	border: 2px solid #ec3237;
+	box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.100);
+	text-align: center;
 }
 
 /* On Hover Services  Highlight Icon box*/
 .service_wrap:hover .service_icon{
 	background-color: #ec3237;
 	color: #ffffff;
+
 }
 
 
 .service_title{
 	font-weight: 600;
 	text-transform: uppercase;
+	color: #000;
 }
 .service_wrap:hover .service_title{
 	color: #ec3237;
@@ -524,9 +529,10 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	line-height: 45px;
 	margin-bottom: 15px;
 	background-color: #eeeeee;
-	color: #777777;
-	text-align: center;
+	color: #414141;
+	margin: 0 auto 20px auto;
 }
+
 .service_icon i{font-size: 1.4em;}
 
 
@@ -582,6 +588,10 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	border: 2px solid #dddddd;
 	font-size: 1.1em;
 	font-weight: 600;
+}
+
+.portfolio_filter li a {
+	color: #fff;
 }
 
 .portfolio_filter li a:hover{
@@ -645,10 +655,12 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	margin-bottom: 5px;
 	font-weight: 600;
 	text-transform: uppercase;
+	color: #000;
 }
 
 .portfolio_category{
 	margin: 0px;
+	color: rgb(48, 48, 48);
 }
 
 
@@ -710,7 +722,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 footer{	
 	position: relative;
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #1a1a1a;
 }
 .contact_title{
 	font-weight: 700;
@@ -757,8 +769,8 @@ footer{
 --------------------------------------------------------------*/
 .copyright{
 	padding: 30px 0px;
-	background-color: #ffffff;
-	border-top: 1px solid #fafafa;
+	background-color: #1a1a1a;
+	border-top: 1px solid #242424;
 }
 .copyright_text{
 	margin: 0px;
