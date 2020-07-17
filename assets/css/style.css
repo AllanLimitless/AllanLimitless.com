@@ -451,8 +451,8 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	border: 1px solid #ec3237;
 }
 
+/* ! */
 .social_ico li a i{font-size: 1.4em;}
-
 
 /*--------------------------------------------------------------
 #	About - My Skills
@@ -460,6 +460,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 .skill{
 	margin-top: 30px;
 	margin-bottom: 70px;
+	margin: 30px auto 70px auto;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -467,27 +468,27 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 
 .skill p{ 
 	font-size: 20px;
+	line-height: 50px;
 }
 
-
-.progress_wrap{
-	margin-top: 24px;
+.skills-image {
+	width: 10rem;
+	height: 100%;
+	filter: drop-shadow(0px 3px 4px #af2424);
+	align-items: center;
+	margin: 0 auto;
 }
 
-.progress{
-	height: 12px;
-	line-height: 12px;
+.col {
+	font-size: 18px;
 }
 
-.progress-bar{
-	background-color: #ec3237;
-}
-
-.progress_title{
-	display: inline-block;
-	color: #777777;
-	margin-bottom: 5px;
-	text-transform: uppercase;
+.skill .fa {
+		font-size: 10rem;
+    height: 100%;
+    color: #fff;
+		text-shadow: 0px 3px 6px #af2424;
+		align-items: center;
 }
 
 
@@ -501,7 +502,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	padding: 20px;
 	background-color: #ffffff;
 	border-radius: 3px;
-	border: 2px solid #ec3237;
+	border: 1px solid #ec3237;
 	box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.100);
 	text-align: center;
 }
@@ -695,7 +696,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 }
 
 .client_avtar{
-	border: 6px solid #ec3237;
+	border: 1px solid #ec3237;
 }
 
 .item_description{
