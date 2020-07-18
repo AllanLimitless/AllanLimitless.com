@@ -1,5 +1,7 @@
 # Juno Project 7 - Personal Portfolio Website
 
+#### [Allanlimitless.com](https://allanlimitless.com)  
+
 ## Project Description
 
 My personal responsive portfolio website built with JavaScript and jQuery. 
@@ -24,13 +26,9 @@ It is required that I code an existing portfolio site design from Themeforest wh
 
 [jQuery] - JavaScript Library used.
 
-
-#### [Allanlimitless.com](https://allanlimitless.com)  
-
-
 ## Author
 
-[**Allan Limitless**](https://github.com/AllanLimitless).
+Allan Limitless
 
 
 
