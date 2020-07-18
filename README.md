@@ -25,7 +25,7 @@ It is required that I code an existing portfolio site design from Themeforest wh
 [jQuery] - JavaScript Library used.
 
 
-#### [Allanlimitless.com](https://allanlimitless.com).  
+#### [Allanlimitless.com](https://allanlimitless.com)  
 
 
 ## Author
