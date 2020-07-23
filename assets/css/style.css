@@ -189,6 +189,7 @@ section, footer{
 }
 
 .section_title{
+	font-family: 'Tomorrow', sans-serif;
 	font-size: 2.5em;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -412,8 +413,13 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 }
 
 .profile_title{
+	font-family: 'Tomorrow', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+#section_about .section_heading {
+	padding-bottom: 10px;
 }
 
 
@@ -580,90 +586,78 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 /*--------------------------------------------------------------
 11.	Portfolio - Work
 --------------------------------------------------------------*/
-.portfolio_filter li{ display: inline-block; }
-.portfolio_filter li a{ 
-	display: block;
-	padding: 10px 20px;
-	margin-bottom: 30px;
-	color: #444444;
-	border: 2px solid #dddddd;
-	font-size: 1.1em;
-	font-weight: 600;
+.portfolio-container {
+  position: relative;
 }
 
-.portfolio_filter li a {
+#section_portfolio .section_title{
+	margin-bottom: 50px;
+}
+
+.img-fluid{
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+	backface-visibility: hidden;
+	/* filter: drop-shadow(0px 3px 4px #af2424); */
+	/* border: #af2424 3px solid; */
+	border-radius: 10px;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #ec3237;
+	color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text a {
 	color: #fff;
 }
 
-.portfolio_filter li a:hover{
-	color: #ec3237;
-	border: 2px solid #ec3237;
+.portfolio-container:hover .img-fluid {
+	opacity: 0.3;
 }
 
-.portfolio_filter .active a{
-	background-color: #ec3237;
-	color: #ffffff !important;
-	border: 2px solid #ec3237;	
+.portfolio-container:hover .middle {
+	opacity: 1;
 }
 
-
-/*--------------------------------------------------------------
-#	Portfolio Items - Work
---------------------------------------------------------------*/
-.portfolio{
-	margin-bottom: 50px;
-	position: relative;
+.portfolio-header {
+	padding-top: 15px;
 }
 
-.portfolio_info{
-	padding: 0px 15px;
-	padding-top: 30px;
-	padding-bottom: 10px;
-    margin-bottom: 30px;
-    background-color: #ffffff;
-	border: 1px solid #eeeeee;
-	position: relative;
-	border-radius: 0px 0px 3px 3px;
-	box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.050);
+.portfolio-description {
+	height: 95px;
+	margin-bottom: 0;
 }
 
-.portfolio_prev{
-  display: block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 100%;
-  margin: auto;
-  position: absolute;
-  top: -17px;
-  left: 50%;
-  transform: translate3d( -50%, 0%, 0 );
-}
-.portfolio_prev:focus, .portfolio_prev:active{
-	color: #ffffff;
+.github-link {
+	margin-bottom: 30px;
 }
 
-.portfolio_item:hover .portfolio_prev{
-	background-color: #ec3237;
-	color: #ffffff;
-}
-.portfolio_item:hover .portfolio_prev a{color: #ffffff;}
-
-.portfolio_title{
-	margin-bottom: 5px;
-	font-weight: 600;
-	text-transform: uppercase;
-	color: #000;
+.github-link a{
+	color: #fff;
+	font-size: medium;
 }
 
-.portfolio_category{
-	margin: 0px;
-	color: rgb(48, 48, 48);
-}
+.github-link a:hover {
+	text-shadow: 0px 3px 6px #af2424;
 
+}
 
 /*--------------------------------------------------------------
 12.	Client Testimonials

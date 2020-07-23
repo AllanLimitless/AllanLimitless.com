@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
   TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -9,11 +8,11 @@
 	Mobile - Menu button 
 3.  Parallax - VScroll.js
 4.  Portfolio Filter - QuickSand
-	Portfolio Popup
 5.  Project Counters
 6.	Testimonial Slider - Slick.js
 7.  Contact form - AJAX
 -------------------------------------------------------------------*/
+
 
 (function($) {
 
@@ -22,12 +21,11 @@
 
 
     // Selectors 
-    let $window = $(window),
+    var $window = $(window),
 	    $current_class = $('ul.nav'),
 	    $one_page_nav = $('ul.nav a'),
 	    $scroll = $('.scroll'),
 	    $navbar_toggle = $('.navbar-toggle'),
-	    $portfolio_prev = $('.portfolio_prev'),
 	    $counter = $('.counter'),
 	    $testimonial_slider = $('.testimonial_slider');
 
@@ -52,7 +50,7 @@
     --------------------------------------------------------------*/
 	$one_page_nav.on('click', function(e) {
 		e.preventDefault();
-		let link = this;
+		var link = this;
 		$.smoothScroll({
 			speed: 600,
 			offset: -68,
@@ -65,7 +63,7 @@
     --------------------------------------------------------------*/
 	$scroll.on('click', function(e) {
 		e.preventDefault();
-		let link = this;
+		var link = this;
 		$.smoothScroll({
 			speed: 600,
 			offset: -68,
@@ -88,85 +86,6 @@
     $('.cover').paroller();
     $('.counter_box').paroller();
     $('.testimonial_box').paroller();
-
-
-
-   /*--------------------------------------------------------------
-    4.  Portfolio Filter - QuickSand
-    --------------------------------------------------------------*/
-	// get the action filter option item on page load
-	var $filterType = $('#filter li.active a').attr('class');
-
-	// get and assign the portfolio element to the
-	// $holder varible for use later
-	let $holder = $('ul.portfolio_gallery');
-
-	// clone all items within the pre-assigned $holder element
-	let $data = $holder.clone();
-
-	// attempt to call Quicksand when a filter option
-	// item is clicked
-	$('#filter li a').on('click', function(e) {
-	    // reset the active class on all the buttons
-	    $('#filter li').removeClass('active');
-	    
-	    // assign the class of the clicked filter option
-	    // element to our $filterType variable
-	    var $filterType = $(this).attr('class');
-	    $(this).parent().addClass('active');
-	    
-	    if ($filterType == 'all') {
-	        // assign all li items to the $filteredData var when
-	        // the 'All' filter option is clicked
-	        var $filteredData = $data.find('li');
-	    } 
-	    else {
-	        // find all li elements that have our required $filterType
-	        // values for the data-type element
-	        var $filteredData = $data.find('li[data-type=' + $filterType + ']');
-	    }
-	    
-	    // call quicksand and assign transition parameters
-	    $holder.quicksand($filteredData, {
-	        duration:600,
-	        easing: 'easeInOutQuad'
-	    });
-	    return false;
-	});
-
-
-
-   /*--------------------------------------------------------------
-    #  Portfolio Popup - Magnific Popup Lightbox Plugins
-    --------------------------------------------------------------*/	
-	$portfolio_prev.magnificPopup({
-		// delegate: 'a',
-		type: 'image',
-		tLoading: 'Loading image #%curr%...',
-		mainClass: 'mfp-img-mobile',
-		gallery: {
-		  enabled: true,
-		  navigateByImgClick: true,
-		  preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		},
-		image: {
-		  tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-		  titleSrc: function(item) {
-		    return item.el.attr('title');
-		  }
-		}
-	});
-
-
-   /*--------------------------------------------------------------
-    5.  Project Counters
-    --------------------------------------------------------------*/
-    $counter.counterUp({
-	    delay: 15,
-	    time: 3000
-	});
-
-
 
    /*--------------------------------------------------------------
     6.  Testimonial Slider - Slick.js
@@ -200,18 +119,16 @@
               }
             }
         ]
-    });
-
-
-
+		});
+		
    /*--------------------------------------------------------------
     7.  Contact form - AJAX
     --------------------------------------------------------------*/
 	// Assigned form
-	let form = $('#ajax-contact');
+	var form = $('#ajax-contact');
 
 	// Messages div
-	let formMessages = $('#form-messages');
+	var formMessages = $('#form-messages');
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
@@ -219,7 +136,7 @@
 		e.preventDefault();
 
 		// Serialize the form data.
-		let formData = $(form).serialize();
+		var formData = $(form).serialize();
 
 		// Submit the form using AJAX
 		$.ajax({
