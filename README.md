@@ -1,4 +1,4 @@
-# Juno Project 7 - Personal Portfolio Website
+# Portfolio Website
 
 
 ## Project Description
