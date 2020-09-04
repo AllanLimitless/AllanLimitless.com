@@ -105,22 +105,28 @@
 		background-position-x: 65% !important;
 		background-size: cover;
 	}
-
 	.brand_title {
 		font-size: 25px;
 	}
 	.word_title {
 		font-size: 25px;
 	}
-
 }
 
 /*--------------------------------------------------------------
-#	Small Mobile Responsive Styles (400px)
+#	Small Mobile Responsive Styles (580px)
 --------------------------------------------------------------*/
-@media (max-width: 400px){
+@media (max-width: 580px){
+	.skill p {
+		font-size: 15px;
+	}
+}
+/*--------------------------------------------------------------
+#	Super-Small Mobile Responsive Styles (420px)
+--------------------------------------------------------------*/
+@media (max-width: 420px){
 	#text {
-		font-size: 1.5em;
+		font-size: 2.0em;
 	}
 
 	.brand_title {
@@ -129,7 +135,6 @@
 	.word_title {
 		font-size: 25px;
 	}
-
 	/*--------------------------------------------------------------
 	4.	Portfolio
 	--------------------------------------------------------------*/
@@ -137,5 +142,13 @@
 		margin-top: 30px;
 	}
 
+	.skill p {
+	font-size: 10px;
 }
+	.contact_container .contact-title {
+		text-align: center !important;
+	}
+}
+
+
 
