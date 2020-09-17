@@ -509,6 +509,12 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 	text-align: center;
 }
 
+.iconify {
+	height: 22px;
+	width: 19px;
+	padding-top: 1px;
+}
+
 /* On Hover Services  Highlight Icon box*/
 .service_wrap:hover .service_icon{
 	background-color: #ec3237;
