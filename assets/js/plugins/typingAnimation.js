@@ -1,6 +1,6 @@
 
 // List of sentences
-let _CONTENT = [ "WEB DEVELOPER", "GRAPHIC DESIGNER", "DIGITAL MARKETER" ];
+let _CONTENT = [ "WEB DEVELOPER", "GRAPHIC DESIGNER"];
 
 // Current sentence being processed
 let _PART = 0;
