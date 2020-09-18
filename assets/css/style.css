@@ -736,6 +736,15 @@ footer{
 	padding: 10px 0px;
 }
 
+.contact_info a {
+	font-size: large;
+	color: #fff;
+}
+
+.contact_info a:hover {
+	color: rgb(204, 0, 0);
+}
+
 .contact_icon{
 	width: 30px;
 	height: 30px;
