@@ -413,78 +413,81 @@
 
 		<!-- ========== CONTACT - HIRE ME ========== -->
 		<footer id="section_contact" class="contact">
+			
 			<div class="container">
 
-				<!-- SECTION HEADING -->
-				<div class="col-xs-12 section_heading">
-					<h2 class="section_title">CONTACT</h2>
-					<!-- <p class="section_subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p> -->
-				</div>
-				<div class="clearfix"></div>
-				<!-- SECTION HEADING -->
 
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
 
-				<div class="col-xs-12 col-sm-8 col-md-6">
-					<div class="contact_container">
-						<!-- Contact Writeup -->
-						<h4 class="contact_title">Contact Info</h4>
-						<p>If you have any questions about my services, or are interested in hiring me, feel free to contact me.
-						</p>
-						<!-- Contact Writeup end-->
+    <div class="row">
 
-						<!-- Resume Contact Details -->
-						<div class="contact_info">
-	                    	<div class="contact_icon">
-	                    		<!-- <i class="fa fa-file-alt"></i> -->
-												</div> 
-												<a target="_blank" href="AllanLimitless.pdf">View my Resume</a>
-	                    </div>
-						<!-- Resume Contact Details -->
+        <!--Grid column-->
+        <div class="col-xs-12">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-						<!-- Social Media links start -->
-						<div class="social">
-							<ul class="social_ico">
-								<li><a href="https://twitter.com/Allan_Limitless" target="_blank" title="Twitter"><i
-											class="fa fa-twitter"></i></a></li>
-								<li><a href="https://github.com/AllanLimitless" target="_blank" title="Github"><i
-											class="fa fa-github"></i></a></li>
-								<li><a href="https://linkedin.com/in/allan-blackett-56bb4a128/" target="_blank" title="Linkedin"><i
-											class="fa fa-linkedin"></i></a></li>
-								<!-- <li><a href="#" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li> -->
-							</ul>
-						</div>
-						<div class="clearfix"></div>
-						<!-- Social Media links end -->
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-6">
-					<div class="contact_container">
-						<!-- Contact Form -->
-						<!-- <form id="ajax-contact" method="post" action="send.php">
-							<div class="field">
-								<input type="text" id="name" class="form-control" name="name" placeholder="Enter Name" required>
-							</div>
+                <!--Grid row-->
+                <div class="row">
 
-							<div class="field">
-								<input type="email" id="email" class="form-control" name="email" placeholder="Enter Email" required>
-							</div>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
 
-							<div class="field">
-								<textarea id="message" class="form-control" name="message" placeholder="Enter Message" rows="6"
-									required></textarea>
-							</div>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
 
-							<div class="field">
-								<button type="submit" class="btn btn_cta">Send Message</button>
-							</div>
-						</form> -->
-						<div id="form-messages"></div>
-						<div class="clearfix"></div>
-						<!-- Contact Form -->
-					</div>
-				</div>
-				<div class="clearfix"></div>
+                </div>
+                <!--Grid row-->
 
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+    </div>
 			</div>
 		</footer>
 		<!-- ========== CONTACT - HIRE ME ========== -->
