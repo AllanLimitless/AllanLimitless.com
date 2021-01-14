@@ -502,14 +502,6 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 .service_wrap{
 	margin-bottom: 30px;
 	padding: 20px;
-	background:  linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5) 
-    ),
-		url('../../assets/img/hero-images/low-poly.jpg');
-    background-position: center;
-    background-size: cover;
-		background-repeat: no-repeat;
 	/* background-color: #ffffff; */
 	border-radius: 3px;
 	border: 1px solid #ec3237;
@@ -534,7 +526,7 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
 .service_title{
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 }
 .service_wrap:hover .service_title{
 	color: #ec3237;
