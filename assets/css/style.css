@@ -617,10 +617,6 @@ a:hover {
 	color: #fff;
 }
 
-.service_wrap:hover .service_title {
-	color: #ec3237;
-}
-
 .service_icon {
 	width: 40px;
 	height: 40px;
@@ -649,7 +645,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -659,8 +654,11 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Service Title*/
+.development_wrap:hover .service_title {
+	color: #ec3237;
+}
+
 /* On Hover, Highlight Icon box*/
 .development_wrap:hover .service_icon {
 	background-color: #ec3237;
@@ -671,7 +669,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -681,9 +678,11 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
-/* On Hover, Highlight Icon box*/
+/* On Hover, Highlight Service Title*/
+.ux_wrap:hover .service_title {
+	color: #ec3237;
+}
+
 .ux_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
@@ -693,7 +692,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -703,9 +701,12 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
-/* On Hover, Highlight Icon box*/
+/* On Hover, Highlight Service Title*/
+.hosting_wrap:hover .service_title {
+	color: #ec3237;
+}
+
+
 .hosting_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
@@ -715,7 +716,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -725,9 +725,11 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
-/* On Hover, Highlight Icon box*/
+/* On Hover, Highlight Service Title*/
+.seo_wrap:hover .service_title {
+	color: #ec3237;
+}
+
 .seo_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
@@ -737,7 +739,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -747,9 +748,11 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
-/* On Hover, Highlight Icon box*/
+/* On Hover, Highlight Service Title*/
+.commerce_wrap:hover .service_title {
+	color: #ec3237;
+}
+
 .commerce_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
@@ -759,7 +762,6 @@ a:hover {
 	margin-bottom: 30px;
 	padding: 20px;
 	border-radius: 7px;
-	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -769,12 +771,18 @@ a:hover {
 	background-repeat: no-repeat;
 }
 
-/*? add to the box on hover ?*/
-/*?	filter: drop-shadow(0px 3px 4px #af2424); */
-/* On Hover, Highlight Icon box*/
+/* On Hover, Highlight Service Title*/
+.security_wrap:hover .service_title {
+	color: #ec3237;
+}
+
 .security_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
+}
+
+.security_wrap:hover {
+	
 }
 
 /*--------------------------------------------------------------
