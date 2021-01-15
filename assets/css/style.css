@@ -642,12 +642,102 @@ a:hover {
 	padding-top: 1px;
 }
 
-.service_wrap {
+
+/* ! */
+
+.development_wrap {
 	margin-bottom: 30px;
 	padding: 20px;
-	border-radius: 11px;
+	border-radius: 7px;
 	border: 1px solid #ec3237;
-	/* box-shadow: 0px 1px 4px rgba(107, 69, 69, 0.100); */
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url('../../assets/img/webDevelopment.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*? add to the box on hover ?*/
+/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Icon box*/
+.development_wrap:hover .service_icon {
+	background-color: #ec3237;
+	color: #ffffff;
+}
+
+.ux_wrap {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 7px;
+	border: 1px solid #ec3237;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url('../../assets/img/ux.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*? add to the box on hover ?*/
+/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Icon box*/
+.ux_wrap:hover .service_icon {
+	background-color: #ec3237;
+	color: #ffffff;
+}
+
+.hosting_wrap {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 7px;
+	border: 1px solid #ec3237;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url('../../assets/img/hosting.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*? add to the box on hover ?*/
+/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Icon box*/
+.hosting_wrap:hover .service_icon {
+	background-color: #ec3237;
+	color: #ffffff;
+}
+
+.seo_wrap {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 7px;
+	border: 1px solid #ec3237;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url('../../assets/img/seo.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*? add to the box on hover ?*/
+/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Icon box*/
+.seo_wrap:hover .service_icon {
+	background-color: #ec3237;
+	color: #ffffff;
+}
+
+.commerce_wrap {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 7px;
+	border: 1px solid #ec3237;
 	text-align: center;
 	background: linear-gradient(rgba(0, 0, 0, 0.5),
 			rgba(0, 0, 0, 0.5)),
@@ -660,13 +750,32 @@ a:hover {
 /*? add to the box on hover ?*/
 /*?	filter: drop-shadow(0px 3px 4px #af2424); */
 /* On Hover, Highlight Icon box*/
-.service_wrap:hover .service_icon {
+.commerce_wrap:hover .service_icon {
 	background-color: #ec3237;
 	color: #ffffff;
-
 }
 
+.security_wrap {
+	margin-bottom: 30px;
+	padding: 20px;
+	border-radius: 7px;
+	border: 1px solid #ec3237;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)),
+		url('../../assets/img/security.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 
+/*? add to the box on hover ?*/
+/*?	filter: drop-shadow(0px 3px 4px #af2424); */
+/* On Hover, Highlight Icon box*/
+.security_wrap:hover .service_icon {
+	background-color: #ec3237;
+	color: #ffffff;
+}
 
 /*--------------------------------------------------------------
 10.	Project counter
