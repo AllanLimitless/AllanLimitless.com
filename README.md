@@ -13,7 +13,7 @@ My personal responsive portfolio website built with HTML/CSS jQuery.
 
 ## Images Credit
 
-
+Yin Yang Vectors by Vecteezy - "https://www.vecteezy.com/free-vector/yin-yang" 
 
 ## Author
 
