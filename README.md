@@ -13,7 +13,7 @@ My personal responsive portfolio website built with HTML/CSS jQuery.
 
 ## Images Credit
 
-Hero image by: [Simone Dalmeri on Unsplash](https://unsplash.com/@simone_dalmeri) 
+
 
 ## Author
 
