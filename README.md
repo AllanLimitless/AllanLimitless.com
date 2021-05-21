@@ -3,7 +3,7 @@
 
 ## Project Description
 
-My personal responsive portfolio website built with HTML/CSS jQuery. 
+My personal responsive portfolio website 
 
 ## Built With
 
@@ -12,8 +12,6 @@ My personal responsive portfolio website built with HTML/CSS jQuery.
 - Bootstrap
 
 ## Images Credit
-
-Yin Yang Vectors by Vecteezy - "https://www.vecteezy.com/free-vector/yin-yang" 
 
 ## Author
 
